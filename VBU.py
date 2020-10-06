@@ -1,7 +1,7 @@
 import os
-import vidCombiner
+import combiner
 
 if not os.path.exists('output'):
     os.makedirs('output')
 
-vidCombiner.combine('test', 'output')
+combiner.combine('test', 'output')
